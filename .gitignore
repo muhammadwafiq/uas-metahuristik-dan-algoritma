@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Env files (secrets)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local-only files (kept on disk but not pushed)
+laporan_uas_metauristik_wpx_elfaent.docx
+
+# Personal study notes (kept local, not pushed)
+penjelasan.md
+sumber_kode.md
+penjelasan_plot.md
+
+# Generated output & prompt template (auto-generated, not pushed)
+output_uas_v2.md
+prompt_untuk_claude.md
